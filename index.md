@@ -2,35 +2,18 @@
 layout: default
 ---
 
+<button id="collapse-all" class="collapse_all">Collapse All</button>
 
-<details><summary>Gist</summary><p>
-{% gist 52734cd74f56ea2a821e64db793d797c %}
-</p></details>
+# Cool Things :)
 
-# Projects
+## PowerShell
 
-## Security
-<details><summary><b>SecurityCenter</b></summary>
+<details>
+<summary>Set Lync Client Personal Message by Day of the Week</summary>
+I have 3-year-old daugther and she has nicknames for the days of the week. I thought it would be a fun little challenge to come up with a way to automatically change my Lync personal message to use one of those nicknames based on the current day of the week.
+  <details class="indent">
+  <summary>Code</summary>
+  {% gist d4e337435dd5a9d5722b21a9145eb353 %}
+  </details>
 </details>
-<details><summary><b>Terminated Users Audit</b></summary>
-</details>
-
-
-## Patching
-<details><summary><b>WSUS</b></summary>
-</details>
-
-
-## System Availability
-<details><summary><b>DFS Server Memory Moitoring</b></summary>
-</details>
-<details><summary><b>Citrix Server CPU Moitoring</b></summary>
-</details>
-
-
-## Data Transfer
-<details><summary><b>File Duplication</b></summary>
-</details>
-<details><summary><b>Photo Import O365</b></summary>
-</details>
-
+<hr/>
