@@ -26,7 +26,7 @@ permalink: /projects/
 
 <hr/>
 
-## System Patching and Haredening
+## System Patching and Hardening
 <p>
 <details><summary><b>WSUS</b></summary>
 </details>
