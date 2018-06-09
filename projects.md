@@ -36,7 +36,7 @@ A PowerShell script that identifies Office 365 licenses that were not revoked fr
 <p>
 <details><summary><b>WSUS</b></summary>
 <details class="indent"><summary>WSUS Initial Server Configuration</summary>
-A PowerShell script to bootstrap the initial configuration of a downstream replica WSUS server.
+A PowerShell script to bootstrap the initial configuration of a downstream replica WSUS server. The script adds the appropriate Windows Features to the server, moves the server to the appropriate OU in AD, formats an additional drive for WSUS content, installs SQL Server Management Studio, runs postinstall, configures the upstream WSUS server and synchronization times, downloads and installs any needed Windows Updates.
 </details>
 <details class="indent"><summary>WSUS Restart PendingReboot Clients</summary>
 A PowerShell script that queries all WSUS clients that have a pending reboot, and triggers a remote reboot of each of them. Typically restarts are controlled through Group Policy, but this method gives the user more control over when the computer reboots. If a computer has a pending reboot, then the user can postpone it indefinitely until this script catches it (it's best to have this script run very early in the morning, like 4 a.m.). The alternative was that eventually the computer would do a force reboot after the user postpones it enough times.
