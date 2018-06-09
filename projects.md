@@ -23,7 +23,7 @@ permalink: /projects/
 </details>
 <details><summary><b>Terminated Users Audit</b></summary>
 <details class="indent"><summary>Active Directory</summary>
-A PowerShell script that combines data from the HRMS, IT Ticketing System, and Active Directory to indentify accounts that have not been deactivated after termination.
+A PowerShell script that combines data from the HRMS, IT Ticketing System, and Active Directory to identify accounts that have not been deactivated after termination.
 </details>
 <details class="indent"><summary>Office 365 Licenses</summary>
 A PowerShell script that identifies Office 365 licenses that were not revoked from terminated employees. When I introduced this particular script, it saved the organization about $1,400/month in the amount of licenses that were able to be recycled.
