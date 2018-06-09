@@ -17,7 +17,9 @@ permalink: /projects/
 
 ## Security
 <details><summary><b>SecurityCenter</b></summary>
+<details><summary><a href="https://github.com/SteveMcGrath/pySecurityCenter/tree/master/examples/sc5/ticket_notifications">Ticket Notifications</a></summary>
 <p>Two Python scripts to add email notifications to SecurityCenter's ticketing system. The first is a Python script that identifies any newly assigned tickets in SecurityCenter and sends and email to the assignees. The second is a Python script that sends out reminder emails to the assignees of any ticket that remains open for a specified period of time. Both of these scripts build upon the <a href="https://github.com/SteveMcGrath/pySecurityCenter">pySecurityCenter</a>  module written by SteveMcGrath, and were both merged with the project as examples.</p>
+</details>
 </details>
 <details><summary><b>Terminated Users Audit</b></summary>
 <details class="indent"><summary>Active Directory</summary>
