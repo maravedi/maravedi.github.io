@@ -5,3 +5,4 @@ google_analytics:
 theme: jekyll-theme-architect
 plugins:
   - jekyll-gist
+excerpt_separator: "<!-- more -->"
