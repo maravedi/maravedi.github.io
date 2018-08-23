@@ -25,9 +25,11 @@ permalink: /blog/
 		<style>
 		    svg#i-clock {vertical-align: middle;}
 		</style>
-		{{ post.excerpt }}
 		<br/>
-		<a href="{{ post.url }}" style="text-decoration: none; color: inherit;">Read more...</a>
+		<a href="{{ post.url }}" style="color: inherit;"><h2>{{ post.title }}</h2></a>
+		{{ post.excerpt | replace_first: post.title, '' }}
+		<br/>
+		<a href="{{ post.url }}" style="text-decoration: none; color: inherit;"><b>Read more...</b></a>
 		<hr/><br/>
 	{% endfor %}
 </ul>

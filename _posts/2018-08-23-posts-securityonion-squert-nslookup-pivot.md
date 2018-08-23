@@ -1,10 +1,10 @@
 ---
 layout: post
-title: _posts/securityonion-squert-nslookup-pivot
+title: "Adding an nslookup Pivot to Squert"
 date: 2018-08-23 10:39 -0400
 ---
 
-## Adding an nslookup pivot to Squert
+## {{ page.title }}
 If you've ever used [Security Onion][securityonion], you've undoubtedly used Squert. Squert is a web interface for managing events in Security Onion. Each event must have a source and a destination IP address, by nature. And this is how they are displayed in Squert, by IP address. What if you want to know what the hostnames are, though?
 <!-- more -->
 

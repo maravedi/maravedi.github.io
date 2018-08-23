@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Configuring a DSC Pull Server with HTTPS"
+title:  "Configuring a DSC Pull Server with HTTPS on Windows Server Core 2016"
 date:   2018-07-11 10:52:02 -0400
 dateupdated:   2018-07-11 10:52:02 -0400
 categories: powershell dsc pullserver https 
 ---
 
-## Configuring a DSC Pull Server with HTTPS on Windows Server Core 2016
+## {{ page.title }}
 After learning about DSC Pull Servers, I immediately wanted to get one up and running, however, I tend to want to do things right the first time if I can. That being said, I didn't want to create a pull server with SMB to test, and then one with HTTP, and then one with HTTPS after. I knew I wanted HTTPS to start with, so I set out to do just that. Things quickly became complicated because I decided to do this on Windows Server Core 2016...
 <!-- more -->
 
