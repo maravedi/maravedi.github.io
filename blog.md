@@ -27,7 +27,7 @@ permalink: /blog/
 		</style>
 		<br/>
 		<a href="{{ post.url }}" style="color: inherit;"><h2>{{ post.title }}</h2></a>
-		{{ post.excerpt | replace_first: post.title, '' }}
+		{{ post.excerpt | strip_html | replace_first: post.title, '' }}
 		<br/>
 		<a href="{{ post.url }}" style="text-decoration: none; color: inherit;"><b>Read more...</b></a>
 		<hr/><br/>
