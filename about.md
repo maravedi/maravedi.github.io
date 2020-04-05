@@ -5,6 +5,13 @@ permalink: /about/
 ---
 
 # About Me
-My name is David and I like to fiddle. In general, if I have to do a task and I anticpate having to repeat it, then I script it. I'm a PowerShell enthusiast, and I enjoy building my skillset in the realms of automation, web development, security, and systems administration.
+I like to fiddle. In general, if I have to do a task and I anticipate having to repeat it, then I script it. I'm a Security Engineer and PowerShell junkie.
 
-I imagine a world where code runs all infrastructures through desired state configuration and container orchestration.
+Some fun things I like doing:
+* Security-related:
+  * Scripting (PowerShell, Bash, Python)
+  * Reversing firmware
+  * Bug hunting
+  
+* For fun:
+  * Hockey
