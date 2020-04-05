@@ -1,5 +1,5 @@
-title: Maravedi the SysAdmin
-description: Musings and Utilities of a SysAdmin
+title: Maravedi
+description: $Father | ? { $_.InfoSecFactotum -And $_.PowerShellJunkie }
 show_sidebar: true
 google_analytics:
 theme: jekyll-theme-architect
