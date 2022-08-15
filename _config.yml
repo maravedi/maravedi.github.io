@@ -1,5 +1,5 @@
 title: Maravedi
-description: $Father | ? { $_.InfoSecFactotum -And $_.PowerShellJunkie }
+description: $Parent | ? { $_.InfoSecFactotum -And $_.PowerShellJunkie }
 show_sidebar: true
 google_analytics:
 theme: jekyll-theme-architect
